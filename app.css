@@ -64,6 +64,12 @@
     color: rgb(12, 131, 31);
   }
 
+  /*
+ .bannerSection {
+   display: none;
+ }
+ */
+
   .cart-count {
     position: relative;
     top: -16.5px;
