@@ -1,11 +1,17 @@
 let cart = [];
 
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+
 function toggleCart() {
   document.getElementById("cartPanel").classList.toggle("active");
   document.getElementById("overlay").classList.toggle("active");
 }
 
 function closeAll() {
+  document.getElementById("navMenu").classList.remove("active");
   document.getElementById("cartPanel").classList.remove("active");
   document.getElementById("overlay").classList.remove("active");
 }

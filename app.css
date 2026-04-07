@@ -14,6 +14,13 @@
     padding: 10px;
   }
 
+  .logo img {
+    max-width: 120px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
   .header-address {
     padding: 10px;
   }
@@ -23,7 +30,7 @@
   }
 
   .header-address h3 {
-     font-size: 15px;
+    font-size: 15px;
   }
 
   .search-box button {
