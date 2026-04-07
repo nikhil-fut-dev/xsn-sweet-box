@@ -10,10 +10,6 @@
     justify-content: center;
   }
 
-  .logo {
-    padding: 10px;
-  }
-
   .logo img {
     max-width: 120px;
     margin-top: 10px;
